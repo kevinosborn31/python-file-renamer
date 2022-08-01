@@ -2,7 +2,7 @@ import os
 
 def main():
     i = 0
-    path "C:/Users/kevin/Documents/test"
+    path "C:/Users/kevin/Documents/test/"
     for filename in os.listdir(path):
         my_dest = "img" + str(i) + ".jpg"
         my_source = path + filename
